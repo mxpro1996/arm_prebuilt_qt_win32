@@ -1,0 +1,12 @@
+prefix=D:/Qt5.14.2_arm_linux_lib
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 RepParser
+Description: Qt RepParser module
+Version: 5.14.2
+Cflags: -DQT_REPPARSER_LIB -I${includedir}/QtRepParser -I${includedir}
+Requires: Qt5Core
+

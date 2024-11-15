@@ -1,0 +1,7 @@
+QMAKE_PRL_BUILD_DIR = E:/SharedProg/qt-everywhere-src-5.14.2/qtbase/src/tools/bootstrap
+QMAKE_PRO_INPUT = bootstrap.pro
+QMAKE_PRL_TARGET = libQt5Bootstrap.a
+QMAKE_PRL_CONFIG = lex yacc debug depend_includepath testcase_targets import_qpa_plugin windows prepare_docs qt_docs_targets qt_build_extra file_copies qmake_use qt warn_on link_prl debug_and_release precompile_header cross_compile win32 mingw gcc copy_dir_files cross_compile compile_examples enable_new_dtags largefile precompile_header prefix_build force_independent force_bootstrap utf8_source create_prl link_prl no_private_qt_headers_warning QTDIR_build qt_example_installs exceptions_off testcase_exceptions warning_clean debug DebugBuild Debug build_pass minimal_syncqt internal_module force_bootstrap gc_binaries static relative_qt_rpath target_qt c++11 strict_c++ c++14 c++1z c99 c11 need_fwd_pri qt_install_module create_cmake skip_target_version_ext compiler_supports_fpmath debug DebugBuild Debug build_pass have_target staticlib no_plist exclusive_builds debug_info no_autoqmake thread
+QMAKE_PRL_VERSION = 5.14.2
+QMAKE_PRL_LIBS = -luser32 -lole32 -ladvapi32 -lshell32 -lnetapi32 -luuid
+QMAKE_PRL_LIBS_FOR_CMAKE = -luser32;-lole32;-ladvapi32;-lshell32;-lnetapi32;-luuid;;;

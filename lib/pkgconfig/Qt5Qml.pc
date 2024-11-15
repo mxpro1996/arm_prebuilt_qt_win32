@@ -1,0 +1,13 @@
+prefix=D:/Qt5.14.2_arm_linux_lib
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Qml
+Description: Qt Qml module
+Version: 5.14.2
+Libs: -L${libdir} -lQt5Qml 
+Cflags: -DQT_QML_LIB -I${includedir}/QtQml -I${includedir}
+Requires: Qt5Core Qt5Network
+
